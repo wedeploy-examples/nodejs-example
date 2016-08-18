@@ -3,5 +3,6 @@
 	"type": "wedeploy/nodejs",
 	"hooks": {
 		"build": "npm install"
-	}
+	},
+	"port": 3000
 }
