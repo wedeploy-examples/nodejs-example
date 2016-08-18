@@ -1,0 +1,7 @@
+{
+	"id": "YOUR_CONTAINER_ID",
+	"type": "wedeploy/nodejs",
+	"hooks": {
+		"build": "npm install"
+	}
+}

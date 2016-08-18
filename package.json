@@ -1,0 +1,12 @@
+{
+  "name": "boilerplate-nodejs",
+  "version": "1.0.0",
+  "description": "A boilerplate that demonstrates the Node.js container",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
