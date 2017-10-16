@@ -10,7 +10,7 @@
     "start": "node --experimental-modules index.mjs"
   },
   "author": "Iliyan Peychev <iliyan.peychev@gmail.com>",
-  "license": "BSD-3-clause",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "hacker-quotes": "^1.0.0"
   }
