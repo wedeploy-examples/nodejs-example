@@ -1,0 +1,17 @@
+{
+  "name": "es2015modules-nodejs",
+  "version": "1.0.0",
+  "description": "Sample project using the experimental implementation of ES2015 modules in Node.js",
+  "engine": {
+    "node": ">=8.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "author": "Iliyan Peychev <iliyan.peychev@gmail.com>",
+  "license": "BSD-3-clause",
+  "dependencies": {
+    "hacker-quotes": "^1.0.0"
+  }
+}
