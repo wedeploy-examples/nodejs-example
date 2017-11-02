@@ -1,5 +1,13 @@
-# Node.js Boilerplate
+# Node.JS [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
-This template will help you through the process of deploying a Node.js project on WeDeploy.
+A demo of [Node.JS](https://nodejs.org/en/) on [WeDeploy](https://wedeploy.com/).
 
-> [Visit the documentation to learn how to start using Node.js with WeDeploy.](https://wedeploy.com/docs/deploy/deploying-nodejs/)
+## Instructions
+
+1. Install the [WeDeploy CLI](https://wedeploy.com/docs/intro/using-the-command-line/).
+2. Clone this repository.
+3. Open the project with your command line and run `we deploy -p yourproject`.
+
+## License
+
+[BSD-3-Clause](./LICENSE.md), © Liferay, Inc.
