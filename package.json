@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-nodejs",
+  "name": "demo-nodejs",
   "version": "1.0.0",
-  "description": "A boilerplate that demonstrates the Node.js container",
+  "description": "A demo of Node.js on WeDeploy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
