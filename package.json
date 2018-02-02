@@ -4,7 +4,8 @@
   "description": "A demo of Node.js on WeDeploy",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "echo 'It worked!'"
   },
   "dependencies": {
     "express": "^4.14.0",
