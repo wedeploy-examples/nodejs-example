@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>It works!</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700">
-	<style>
-	body {
-	    background: #0e141a;
-	    font-family: 'Open Sans', sans-serif;
-	}
-	.container {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-	h1 {
-		font-size: 72px;
-		font-weight: 700;
-		color: #00d46a;
-		margin: 0;
-	}
-	h2 {
-		font-weight: 300;
-		color: rgba(255, 255, 255, 0.9);
-		margin: 0;
-	}
-	.logo {
-		position: absolute;
-		bottom: 20px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	</style>
+  <meta charset="UTF-8">
+  <meta content="minimum-scale=1.0, width=device-width" name="viewport">
+  <link rel="stylesheet" href="https://cdn.wedeploy.io/fonts/Circular-Std.css">
+  <title>My site is live!</title>
+  <style>
+    body {
+      font-family: 'Circular Std', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 45%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+    }
+    h1 {
+      color: rgb(14,20,26);
+      font-size: 46px;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 60px;
+      margin: 6px 0 0;
+    }
+    h2 {
+      color: rgba(14,20,26,.8);
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin: 12px 0 0;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<h1>It works!</h1>
-		<h2>Now you're ready to roll.</h2>
-	</div>
-
-	<img class="logo" src="https://cloud.githubusercontent.com/assets/398893/16279177/af9b3622-386e-11e6-920e-3a3f33169831.png" width="150" alt="WeDeploy">
+  <div class="container">
+    <svg width="270px" height="270px" viewBox="0 0 270 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Deployed</title>
+        <defs>
+            <circle id="path-1" cx="90" cy="90" r="90"></circle>
+            <circle id="path-3" cx="90" cy="90" r="90"></circle>
+            <path d="M90,92 C95.5,92 100,87.5 100,82 C100,76.5 95.5,72 90,72 C84.5,72 80,76.5 80,82 C80,87.5 84.5,92 90,92 Z" id="path-5"></path>
+        </defs>
+        <g id="01-page-sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-585.000000, -156.000000)">
+            <g id="view-1">
+                <g id="Group" transform="translate(585.000000, 156.000000)">
+                    <circle id="circle-outer-2" fill-opacity="0.0599999987" fill="#00D46A" cx="135" cy="135" r="135"></circle>
+                    <circle id="circle-outer-1" fill-opacity="0.1" fill="#00D46A" cx="135" cy="135" r="114"></circle>
+                    <g id="icon" transform="translate(45.000000, 45.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="container" fill-opacity="0.2" fill="#00D46A" xlink:href="#path-1"></use>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <circle stroke-opacity="0.08" stroke="#00D46A" stroke-width="30" cx="90" cy="90" r="75"></circle>
+                        <rect id="line" fill="#FFFFFF" mask="url(#mask-4)" x="86" y="114" width="8" height="66"></rect>
+                        <path d="M123.5625,90.4375 C124.4375,91.375 125,92.625 125,94 L125,114 C125,116.75 122.75,119 120,119 C119,119 118,118.6875 117.25,118.1875 L117.1875,118.125 L102.625,108.4375 C101,110.0625 100.6875,110.375 98.5625,112.5625 C97.625,113.4375 96.375,114 95,114 L85,114 C83.625,114 82.375,113.4375 81.4375,112.5625 C79.3125,110.375 79,110.0625 77.375,108.4375 L62.8125,118.125 L62.75,118.1875 C62,118.6875 61,119 60,119 C57.25,119 55,116.75 55,114 L55,94 C55,92.625 55.5625,91.375 56.4375,90.4375 C63,83.9375 64.25,82.6875 70,76.9375 L70,74 C70,68.625 72.125,63.75 75.5625,60.125 C80.0625,55.125 80.125,55 82.5625,52.3125 C84.375,50.25 87.0625,49 90,49 C92.9375,49 95.625,50.25 97.4375,52.3125 C99.875,55 99.9375,55.125 104.4375,60.125 C107.875,63.75 110,68.625 110,74 L110,76.9375 C115.75,82.6875 117,83.9375 123.5625,90.4375 Z" id="rocket" fill="#00D46A" mask="url(#mask-4)"></path>
+                        <g id="window" mask="url(#mask-4)" fill="#FFFFFF">
+                            <use xlink:href="#path-5"></use>
+                            <use xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <h1>My site is live!</h1>
+    <h2>Wow, that was easy.</h2>
+  </div>
 </body>
 </html>
