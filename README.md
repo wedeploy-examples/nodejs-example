@@ -1,6 +1,6 @@
 # Node.JS [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
-A demo of [Node.JS](https://nodejs.org/en/) on [WeDeploy](https://wedeploy.com/).
+An example of [Node.JS](https://nodejs.org/en/) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
