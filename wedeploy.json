@@ -1,3 +1,6 @@
 {
-  "id": "nodejs"
+  "id": "nodejs",
+  "healthCheck": {
+    "url": "localhost"
+  }
 }
